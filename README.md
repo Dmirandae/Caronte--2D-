@@ -12,6 +12,9 @@ Sistemática & Biogeografía, Universidad Industrial de Santander, Bucaramanga, 
 The function depends on 'geomorph' (Geometric morphometric analyses of 2d/3d landmark data) package of R written 
 by Dean Adams, Erik Otarola-Castillo, Emma Sherra (http://cran.r-project.org/web/packages/geomorph/index.html).
 Also you need to have R (≥ 2.10) instaled in you computer.
+
 License of the function: GPL (>= 2)
+
 Repository: https://github.com/atorresgalvis/Caronte--2D-
+
 Built: R 3.1.0; x86_64-pc-linux-gnu; distri. Ubuntu 12.04
