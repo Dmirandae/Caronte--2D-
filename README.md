@@ -34,6 +34,14 @@ is the ferryman of Hades who carries souls of the newly deceased across the rive
 
 ***About the use of Caronte function:
 
+YOU CAN DOWNLOAD THE CODE/FUNCTION HERE: https://github.com/atorresgalvis/Caronte--2D-/blob/master/caronte.R.
+OR CHOOSING THE FILE "caronte.R" IN THE MENU OF THE PROJECT.
+once you have the file "caronte.R" only load the file in R or RStudio, typing: 
+
+source('~/Desktop/my_folder/caronte.R')
+
+
+**Fuction:
 caronte(x, algn = TRUE, w_algn_tps = FALSE) 
 
 caronte function take three arguments that user can manipulate: 
