@@ -3,7 +3,7 @@ Caronte--2D-
 
 ***Summary:
 
-A function-tool written in R language, to create a (geometric morphometrics coordinates/landmarks in 2D) file to TNT format (.tnt) from a TPS file. 
+A function-tool written in R language, to create a (geometric morphometrics coordinates/landmarks in 2D) file in TNT format (.tnt) from a TPS file. 
 
 
 
