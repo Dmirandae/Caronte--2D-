@@ -59,6 +59,7 @@ caronte("data", algn=T)
 
 caronte("data", w_algn=T)
 
+The function will return a file called "data_to_tnt.tnt" in TNT format.
 
 
 ***About Phylogenetic morphometrics:
