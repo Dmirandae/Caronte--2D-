@@ -8,10 +8,19 @@ A function-tool written in R language, to create a (geometric morphometrics coor
 
 
 
+*** The problem that caronte solves:
+
+The program TNT implemented the use of landmark data in a phylogenetic framework. This software take the landmark (geometric morphometric) data in .tnt format. 
+Most of the programs to digitize 2D and 3D landmarks, even R packages to digitize (e.i. 'shapes' or 'geomorph'),
+give an output of the digitized data in TPS format (.tps). Caronte can convert landmark data in TPS format, so TNT can use the data in a cladistic (parsimony) context. 
+
+
+
 ***About Caronte:
 
 Caronte, is a very useful and simple function to convert (geometric morphometrics coordinates in 2D) file in TPS format, to TNT format (http://www.zmuc.dk/public/phylogeny/tnt/). Caronte was written in R language (http://www.r-project.org/) by Ambrosio Torres (Laboratorio de Sistemática & Biogeografía, Universidad Industrial
 de Santander, Bucaramanga, Colombia). The function depends on 'geomorph' (Geometric morphometric analyses of 2d/3d landmark data) package of R written by Dean Adams, Erik Otarola-Castillo, Emma Sherra (http://cran.r-project.org/web/packages/geomorph/index.html). Also you need to have R (≥ 2.10) instaled in your computer.
+(AS SOON AS POSSIBLE I WILL EXTEND THIS FUNCTION TO 3D DATA)
 
 License of the function: GPL (>= 2)
 
@@ -66,13 +75,12 @@ but for now this article is not published (personal communication).
 
 ***Contact : 
 
-Finally, I hope that the function will be useful and any comments or improves to make the function more efficient or better will be appreciated. 
+Finally, I hope that the function will be useful; any comments or improves to make the function more efficient or better will be appreciated. 
 best.
 
-atorresgalvis@gmail.com
-http://rchibchombia.blogspot.com/
+email: atorresgalvis@gmail.com
 
+blog (R para Chibchombianos): http://rchibchombia.blogspot.com/
 
-
-
+lab: http://tux.uis.edu.co/labsist/lsb.html
 
