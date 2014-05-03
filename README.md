@@ -37,7 +37,10 @@ example, if your tps file is called "datos.tps" you have to put only "datos".
 algn is an argument to align your data, if you choose TRUE or T, the function calls "gpagen" function from the package "geomorph", this function  performs Generalized Procrustes analysis of two- or three-dimensional landmark data that can include both fixed landmarks and sliding semilandmarks.
 If you choose FALSE or F, means that you don't want to align your data or maybe your data was already aligned.
 
-w_algn_tps is an argument to write your aligned data (obviusly in the case that you choose aligned your data: algn = T), so, if you choose w_algn_tps = TRUE or T, caronte function calls "writeland.tps" function  
+w_algn_tps is an argument to write your aligned data (obviusly in the case that you choose aligned your data: algn = T), so, if you choose w_algn_tps = TRUE or T, caronte function calls "writeland.tps" function from the package "geomorph", this function writes the new aligned data to a file called "aligned_data.tps" in your working directory.
+If you choose FALSE or F, means that you don want to write your aligned data in a different file from the original.
+
+
 
 
 
