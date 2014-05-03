@@ -49,7 +49,9 @@ caronte("data") ## if you don't specify algn and w_algn_tps, the values will be 
 
 caronte("data", algn=FALSE, w_algn_tps =TRUE)
 
+caronte("data", algn=T)
 
+caronte("data", w_algn=T)
 
 
 ***About Phylogenetic morphometrics:
