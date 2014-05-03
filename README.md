@@ -1,11 +1,13 @@
 Caronte--2D-
 ============
 
-Summary:
+*Summary:
+
 A function-tool written in R language, to create a (geometric morphometrics coordinates) file in TNT format (.tnt)
 from a TPS file. 
 
-About Caronte:
+*About Caronte:
+
 Caronte, is a very useful and simple function to convert (geometric morphometrics coordinates) file in TPS format, 
 to TNT format. Caronte was written in R language (http://www.r-project.org/) by Ambrosio Torres (Laboratorio de 
 Sistemática & Biogeografía, Universidad Industrial de Santander, Bucaramanga, Colombia).
