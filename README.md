@@ -48,6 +48,8 @@ w_algn_tps is an argument to write your aligned data (obviusly in the case that 
 If you choose FALSE or F, means that you don want to write your aligned data in a different file from the original.
 w_algn_tps  is by default FALSE
 
+The function will return a file called "data_to_tnt.tnt" in TNT format.
+
 
 Here you have some examples about how to use caronte function in Rconsole or RStudio:
 
@@ -59,7 +61,10 @@ caronte("data", algn=T)
 
 caronte("data", w_algn=T)
 
-The function will return a file called "data_to_tnt.tnt" in TNT format.
+ 
+There is an example data, called "aves_birds.tps" that you can use to try the function and see some results.
+There is also an output data, called "aves_birds.tnt" from the original data "aves_birds.tps".
+Finally there is an output of aligned data, called "aves_birds_algn.tps" from the original data.
 
 
 ***About Phylogenetic morphometrics:
