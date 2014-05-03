@@ -7,6 +7,7 @@ A function-tool written in R language, to create a (geometric morphometrics coor
 (.tnt) from a TPS file. 
 
 
+
 ***About Caronte:
 
 Caronte, is a very useful and simple function to convert (geometric morphometrics coordinates in 2D) file in TPS format, to TNT format (http://www.zmuc.dk/public/phylogeny/tnt/). Caronte was written in R language (http://www.r-project.org/) by Ambrosio Torres (Laboratorio de Sistemática & Biogeografía, Universidad Industrial
@@ -51,4 +52,13 @@ caronte("data", algn=T)
 caronte("data", w_algn=T)
 
 
+
 ***About Phylogenetic morphometrics:
+
+In 2010, Santiago Catalano, Pablo Goloboff and Norberto Giannini, implemented the use of landmark data in a phylogenetic framework. The approach is based on finding, for each of the landmark points, the ancestral positions that minimize the distance between the ancestor/descendant points along the tree. Doing so amounts to maximizing the degree to which similar positions of the landmarks in different taxa can be accounted for by common ancestry, i.e. parsimony. (http://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2010.00302.x/abstract) 
+The algorithms for landmark optimization under parsimony are described in (Goloboff & Catalano, 2011) and the method is based on a first approximation using grids, and subsequent iterative refinement of the initial point estimates.
+(http://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2010.00318.x/abstract)
+
+
+
+
