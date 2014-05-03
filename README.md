@@ -88,8 +88,8 @@ but for now this article is not published (personal communication).
 
 ***Contact : 
 
-Finally, I hope that the function will be useful; any comments or improves to make the function more efficient or better will be appreciated. 
-best.
+Finally, I hope that the function will be useful; any comments or improvements to make the function more efficient or better will be appreciated. 
+best. (and sorry about my english, I'm not the best! :D)
 
 email: atorresgalvis@gmail.com
 
