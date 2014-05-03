@@ -40,12 +40,12 @@ algn is by default TRUE
 
 w_algn_tps is an argument to write your aligned data (obviusly in the case that you choose aligned your data: algn = T), so, if you choose w_algn_tps = TRUE or T, caronte function calls "writeland.tps" function from the package "geomorph", this function writes the new aligned data to a file called "aligned_data.tps" in your working directory.
 If you choose FALSE or F, means that you don want to write your aligned data in a different file from the original.
-w_align_tps  is by default FALSE
+w_algn_tps  is by default FALSE
 
 
 Here you have some examples about how to use caronte function in Rconsole or RStudio:
 
-caronte("data") 
+caronte("data") ## if you don't specify algn and w_algn_tps, the values will be taken by default
 
 caronte("data", algn=FALSE, w_algn_tps =TRUE)
 
