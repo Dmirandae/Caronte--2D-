@@ -59,8 +59,18 @@ In 2010, Santiago Catalano, Pablo Goloboff and Norberto Giannini, implemented th
 The algorithms for landmark optimization under parsimony are described in (Goloboff & Catalano, 2011) and the method is based on a first approximation using grids, and subsequent iterative refinement of the initial point estimates.
 (http://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2010.00318.x/abstract) This algorithms are implemented in the program TNT (Tree Analysis using New Technologies; Goloboff et al. 2003, 2008), (http://www.zmuc.dk/public/phylogeny/tnt/).
 
-Recently, Catalano & Goloboff (2012) presented a method that merges both steps, map and align, into a single procedure that (for the given tree) produces a multiple alignment and ancestral assignments such that the sum of the Euclidean distances between the corresponding landmarks along tree nodes is minimized.
+Recently, Catalano & Goloboff (2012) presented a method that merges both steps, map and align, into a single procedure that (for the given tree) produces a multiple alignment and ancestral assignments such that the sum of the Euclidean distances between the corresponding landmarks along tree nodes is minimized. (http://sysbio.oxfordjournals.org/content/61/3/392.abstract)
+Finally, they implemented tree searches using as imput geometrics morphometric information of landmarks, 
+but for now this article is not published (personal communication).
 
+
+***Contact : 
+
+Finally, I hope that the function will be useful and any comments or improves to make the function more efficient or better will be appreciated. 
+best.
+
+atorresgalvis@gmail.com
+http://rchibchombia.blogspot.com/
 
 
 
